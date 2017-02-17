@@ -1,4 +1,4 @@
-package com.farenda.spring.tutorial.injection.constructor;
+package com.farenda.spring.tutorial.injection.field;
 
 import org.springframework.stereotype.Repository;
 

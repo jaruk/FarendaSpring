@@ -1,5 +1,6 @@
-package com.farenda.spring.tutorial.injection.constructor;
+package com.farenda.spring.tutorial.injection.setter;
 
+import com.farenda.spring.tutorial.injection.setter.BookRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
