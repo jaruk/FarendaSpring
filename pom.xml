@@ -12,6 +12,7 @@
 
     <properties>
         <springframework.version>4.3.6.RELEASE</springframework.version>
+        <springboot.version>1.5.1.RELEASE</springboot.version>
     </properties>
 
     <dependencies>
@@ -141,8 +142,15 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot</artifactId>
-            <version>1.5.1.RELEASE</version>
+            <version>${springboot.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-autoconfigure -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>${springboot.version}</version>
+        </dependency>
+
 
     </dependencies>
 
