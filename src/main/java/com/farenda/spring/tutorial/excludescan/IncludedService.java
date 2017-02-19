@@ -1,7 +1,11 @@
 package com.farenda.spring.tutorial.excludescan;
 
-/**
- * Created by jarek on 2017-02-19.
- */
+import org.springframework.stereotype.Service;
+
+@Service
 public class IncludedService {
+
+    public IncludedService() {
+        System.out.println("Instantiating " + getClass().getSimpleName());
+    }
 }
